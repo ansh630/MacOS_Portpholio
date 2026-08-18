@@ -82,7 +82,7 @@ const Welcome = () => {
 
   return (
     <section
-      id="Welcome"
+      id="welcome"
       ref={sectionRef}
       className="min-h-screen flex flex-col items-center justify-center text-white"
     >

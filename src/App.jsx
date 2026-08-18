@@ -1,7 +1,11 @@
-import Navbar from "#Components/Navbar.jsx"
-import Welcome from "#Components/Welcome"
-import Doc from "#Components/Doc.jsx"
+gsap.registerPlugin(Draggable);
+import gsap from "gsap";
+import {Draggable } from "gsap/Draggable";
 
+import Doc from "#Components/Doc.jsx"
+import Navbar from "#Components/Navbar.jsx"
+import Welcome from "#Components/Welcome.jsx"
+import { Terminal } from "#windows";
 
 const App = () => {
   return (
@@ -9,6 +13,7 @@ const App = () => {
     <Navbar />
     <Welcome />
     <Doc />
+    <Terminal />
    </main>
   )
 }

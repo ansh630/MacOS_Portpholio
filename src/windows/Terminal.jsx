@@ -1,13 +1,13 @@
 import React from 'react'
 import windowWrapper from '#hoc/windowWrapper.jsx'
-import { Check } from 'lucide-react'
+import { Check, Flag } from 'lucide-react'
 import { techStack } from '#constants'
 
 const Terminal = () => {
   return (
     <>
       <div id="window-header">
-        <p>Window Controls</p>
+        <windowscontrol target="terminal"/>
         <h2>Tech Stack</h2>
       </div>
 
@@ -37,6 +37,17 @@ const Terminal = () => {
             </li>
           ))}
         </ul>
+        <div className="footnote">
+          <p>
+            <Check size={20} /> 5 of 5 stacks loaded successfully (100%)
+          </p>
+
+          <p className="text-black">
+            <Flag size={15} fill="black" />
+            Render time: 6ms
+          </p>
+        </div>
+        
       </div>
     </>
   )

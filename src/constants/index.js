@@ -101,16 +101,16 @@ const blogPosts = [
 
 const techStack = [
   {
+    category: "Graphic Design",
+    items: ["Photoshop", "Figma", "Canva"],
+  },
+  {
+    category: "Video Editing",
+    items: ["Premiere Pro", "Capcut"],
+  },
+  {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
-  },
-  {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
-  },
-  {
-    category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["HTML", "JavaScript", "CSS"],
   },
   {
     category: "Backend",
@@ -120,10 +120,7 @@ const techStack = [
     category: "Database",
     items: ["MongoDB", "PostgreSQL"],
   },
-  {
-    category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
-  },
+  
 ];
 
 const socials = [
